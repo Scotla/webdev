@@ -257,6 +257,7 @@ thead, tbody, tfoot, tr{
     "cs cs cs";
     gap:0.1em;
     margin-bottom: 1em;
+    place-content: center;
 }
 
 .menu__cr{
@@ -284,7 +285,7 @@ thead, tbody, tfoot, tr{
 .menu__header,
 .menu__item{
     width: 100%;
-    padding: 1em;
+    padding: 0.5rem;
     border: medium ridge var(--BORDER-COLOR);
 }
 .menu__item{
@@ -317,4 +318,9 @@ tfoot  td{
 .menu__sf,
 .menu__cs{
     font-size: 125%;
+}
+
+/* || should replace offscreen class since it raises extends the size of the screen  */
+.hide{
+    visibility: hidden;
 }
