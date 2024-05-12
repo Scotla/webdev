@@ -145,6 +145,7 @@ a:active{
     display: flex;
     justify-content: space-evenly;
     gap: 1rem;
+
 }
 .hero{
     position: relative;
@@ -198,8 +199,8 @@ a:active{
 .main__article:first-child{
     margin-top: 1em;
 }
-.main__article:last-child{
-    min-height: calc(100vh - 20rem);
+ .main__article:last-child{
+    min-height: calc(100vh - 20rem); 
 }
 
 /* || ABOUT */
@@ -257,6 +258,7 @@ thead, tbody, tfoot, tr{
     "cs cs cs";
     gap:0.1em;
     margin-bottom: 1em;
+    padding: 0.5em;
     place-content: center;
 }
 
@@ -285,7 +287,7 @@ thead, tbody, tfoot, tr{
 .menu__header,
 .menu__item{
     width: 100%;
-    padding: 0.5rem;
+    padding: 0.5em;
     border: medium ridge var(--BORDER-COLOR);
 }
 .menu__item{
@@ -318,9 +320,4 @@ tfoot  td{
 .menu__sf,
 .menu__cs{
     font-size: 125%;
-}
-
-/* || should replace offscreen class since it raises extends the size of the screen  */
-.hide{
-    visibility: hidden;
 }
