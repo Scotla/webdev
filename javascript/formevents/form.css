@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    position: sticky;
+    font-weight: bolder;
+    background-color: black;
+    position: sticky;
+    line-height: 4rem;
+    color: white;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(93, 98, 107);
+}
+main{
+    display: flex;
+    width: 80%;
+    min-height: 100vh;
+    margin: auto;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+#view3{
+
+}
+.myform{
+
+}
+.formContents{
+    display: flex;
+    justify-content: start;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    align-items: end;
+}
+.button{
+    display: flex;
+    float: right;
+}
+

@@ -1,0 +1,33 @@
+//Fetch API requires understanding of:
+//  - callbacks, promises, thenables and assync/await
+
+// #callbacks
+// functions passed to other functions as Parameters
+// They call the calling function after completing their TextTrackList
+// eg
+// function firstFunction(parameters, callback){
+//     // do stuff
+//     callback();
+// }
+
+// #issue with callback functions
+// #AKA a callback  hell
+// firstFunction(para, functio(){
+//     secondFunction(para, function(){
+//         thirdFunction(para, function(){
+
+//         })
+//     })
+// })
+// #Promises - can have three states:
+// pending, fullfilled, rejected
+
+const myPromise = new Promise((resolve,reject)=>{
+    const error = false;
+    if(!error){
+        resolve("Yes! resolved the problem");
+    }else{
+        reject("No! rejected the promise");
+    }
+});
+console.log(myPromise);

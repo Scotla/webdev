@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}   
+
+.flexCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section{ 
+    width: 100vw;
+    height: 100vh;
+}
+label{
+    text-align: center;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+input{
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    width: 90vw;
+    letter-spacing:  5px;
+    border-radius: 25px;
+    outline: none;
+}
+input:hover,
+input:focus{
+    box-shadow: 2px 2px 10px #424242;      
+}
+
+.phoneFormat{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 0.5rem;
+}
+.block{
+    display: block;
+}
+.invalid{
+    color: red;
+}
